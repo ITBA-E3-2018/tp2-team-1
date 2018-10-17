@@ -71,13 +71,13 @@
 \begin_body
 
 \begin_layout Standard
-Si en un circuito logico se le cambia la entrada, pueden llegar a oscilar
+Si a un circuito logico se le cambia la entrada, pueden llegar a oscilar
  la salida hasta que esta se establece.
  Esto sucede cuando diferentes caminos del circuito tienen delays diferentes,
  a esto se lo denomina Hazard.
- Si se camia la entrada de un circuito y momentaneamente la salida cambia
+ Si se cambia la entrada de un circuito y momentaneamente la salida cambia
  de estado, cuando esta deberia mantenerse en el mismo, se lo llama Hazard
- estatico, si por el otro lado, si se le cambia la entrada y la salida tendria
+ estatico, si por el otro lado, se le cambia la entrada y la salida tendria
  que cambiar, pero antes de camibiar esta oscila entre 0 y 1, se la llama
  Hazard dinamico.
  A continuacion se pondran dos ejemplos de hazard estatico y dinamico:
@@ -286,7 +286,7 @@ Gliches cuando no cambia el estado de la salida
 placement H
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center

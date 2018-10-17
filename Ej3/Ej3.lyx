@@ -71,16 +71,16 @@
 \begin_body
 
 \begin_layout Standard
-Si en un circuito logico se le cambia la entrada, pueden llegar a oscilar
+Si a un circuito logico se le cambia la entrada, pueden llegar a oscilar
  la salida hasta que esta se establece.
  Esto sucede cuando diferentes caminos del circuito tienen delays diferentes,
  a esto se lo denomina Hazard.
- Si se camia la entrada de un circuito y momentaneamente la salida cambia
+ Si se cambia la entrada de un circuito y momentaneamente la salida cambia
  de estado, cuando esta deberia mantenerse en el mismo, se lo llama Hazard
- estatico, si por el otro lado, si se le cambia la entrada y la salida tendria
- que cambiar, pero antes de camibiar esta oscila entre 0 y 1, se la llama
+ estatico, si por el otro lado, se le cambia la entrada y la salida tendria
+ que cambiar, pero antes de cambiar esta oscila entre 0 y 1, se la llama
  Hazard dinamico.
- A continuacion se pondran dos ejemplos de hazard estatico y dinamico:
+ A continuacion se pondran dos graficos de hazard estatico y dinamico:
 \end_layout
 
 \begin_layout Standard
@@ -125,7 +125,7 @@ La figura de la izquierda muestra lo que sucede cuando no cambia la salida
 
 \begin_layout Standard
 Para evitar los Hazards estaticos hay que agrupar grupos extras en el mapa
- de Karnaugh, lo cual aumenta el costo de la funcion.
+ de Karnaugh.
 \end_layout
 
 \begin_layout Standard
@@ -230,7 +230,7 @@ Circuito que cumple la tabla de verdad
 \begin_layout Standard
 Se procedio a realizar el circuito, para realizarlo se utilizaron dos circuitos
  integrados nor (74HC02) y para simular las entradas en alto y bajo se utilizo
- un dip switch, tamien se puse un led en la salida, para ver si esta esta
+ un dip switch, tambien se puso un led en la salida, para ver si esta esta
  en alto o bajo.
  Luego se midieron los Hazards anteriormente mencionados.
  A continuacion se pondran las mediciones realizadas:

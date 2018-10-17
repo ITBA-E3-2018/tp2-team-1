@@ -88,7 +88,7 @@ Si en un circuito logico se le cambia la entrada, pueden llegar a oscilar
 placement H
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -132,7 +132,7 @@ Para evitar los Hazards estaticos hay que agrupar grupos extras en el mapa
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -149,7 +149,7 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Mapa de Karnaugh con costo minimo
+Mapa de Karnaugh
 \end_layout
 
 \end_inset
@@ -167,8 +167,9 @@ Mapa de Karnaugh con costo minimo
 \end_layout
 
 \begin_layout Standard
-Para reducir los Hazards, habria que agrupar los dos ceros que no estan
- agrupados.
+Este es el mapa de Karnaugh de costo minimo.
+ Para reducir los Hazards, habria que agrupar los dos ceros que no estan
+ agrupados., lo cual aumentaria el costo.
 \end_layout
 
 \begin_layout Standard
