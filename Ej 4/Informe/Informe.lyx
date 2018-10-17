@@ -277,7 +277,138 @@ Con carga
 \begin_inset Text
 
 \begin_layout Plain Layout
-V_IH
+\begin_inset Formula $V_{IH}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+665mV
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+665mV
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $V_{IL}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+565mV
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+565mV
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $V_{OH}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4.715V
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4.715V
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $V_{OL}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+140mv
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+140mV
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $NoiseMargin$
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -306,7 +437,10 @@ V_IH
 \begin_inset Text
 
 \begin_layout Plain Layout
-V_IL
+\begin_inset Formula $t_{pLH}$
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -315,7 +449,7 @@ V_IL
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+2.88us
 \end_layout
 
 \end_inset
@@ -324,7 +458,7 @@ V_IL
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+3.73us
 \end_layout
 
 \end_inset
@@ -335,7 +469,10 @@ V_IL
 \begin_inset Text
 
 \begin_layout Plain Layout
-V_OH
+\begin_inset Formula $t_{pHL}$
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -344,7 +481,7 @@ V_OH
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+34ns
 \end_layout
 
 \end_inset
@@ -353,7 +490,7 @@ V_OH
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+78.5ns
 \end_layout
 
 \end_inset
@@ -364,7 +501,10 @@ V_OH
 \begin_inset Text
 
 \begin_layout Plain Layout
-V_OL
+\begin_inset Formula $t_{r}$
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -373,7 +513,7 @@ V_OL
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+530ns
 \end_layout
 
 \end_inset
@@ -382,7 +522,7 @@ V_OL
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+3.56us
 \end_layout
 
 \end_inset
@@ -393,7 +533,10 @@ V_OL
 \begin_inset Text
 
 \begin_layout Plain Layout
-NM
+\begin_inset Formula $t_{f}$
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -402,7 +545,7 @@ NM
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+59.8ns
 \end_layout
 
 \end_inset
@@ -411,123 +554,7 @@ NM
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-t_pLH
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-t_pHL
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-t_r
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-t_f
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
+102ns
 \end_layout
 
 \end_inset
@@ -538,7 +565,10 @@ t_f
 \begin_inset Text
 
 \begin_layout Plain Layout
-I_max
+\begin_inset Formula $I_{max}$
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -547,7 +577,7 @@ I_max
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+-
 \end_layout
 
 \end_inset
@@ -636,7 +666,138 @@ Con carga
 \begin_inset Text
 
 \begin_layout Plain Layout
-V_IH
+\begin_inset Formula $V_{IH}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+643mV
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+643mV
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $V_{IL}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+575mV
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+575mV
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $V_{OH}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4.6V
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4.6V
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $V_{OL}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+113mV
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+113mV
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $NoiseMargin$
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -665,7 +826,10 @@ V_IH
 \begin_inset Text
 
 \begin_layout Plain Layout
-V_IL
+\begin_inset Formula $t_{pLH}$
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -674,7 +838,7 @@ V_IL
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+438ns
 \end_layout
 
 \end_inset
@@ -683,7 +847,7 @@ V_IL
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+1.37us
 \end_layout
 
 \end_inset
@@ -694,7 +858,10 @@ V_IL
 \begin_inset Text
 
 \begin_layout Plain Layout
-V_OH
+\begin_inset Formula $t_{pHL}$
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -703,7 +870,7 @@ V_OH
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+45.2ns
 \end_layout
 
 \end_inset
@@ -712,7 +879,7 @@ V_OH
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+1.7ns
 \end_layout
 
 \end_inset
@@ -723,7 +890,10 @@ V_OH
 \begin_inset Text
 
 \begin_layout Plain Layout
-V_OL
+\begin_inset Formula $t_{r}$
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -732,7 +902,7 @@ V_OL
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+534ns
 \end_layout
 
 \end_inset
@@ -741,7 +911,7 @@ V_OL
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+3.71us
 \end_layout
 
 \end_inset
@@ -752,7 +922,10 @@ V_OL
 \begin_inset Text
 
 \begin_layout Plain Layout
-NM
+\begin_inset Formula $t_{f}$
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -761,7 +934,7 @@ NM
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+46.4ns
 \end_layout
 
 \end_inset
@@ -770,123 +943,7 @@ NM
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-t_pLH
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-t_pHL
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-t_r
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-t_f
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
+93.8ns
 \end_layout
 
 \end_inset
@@ -897,7 +954,10 @@ t_f
 \begin_inset Text
 
 \begin_layout Plain Layout
-I_max
+\begin_inset Formula $I_{max}$
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -906,7 +966,7 @@ I_max
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+-
 \end_layout
 
 \end_inset
@@ -915,7 +975,7 @@ I_max
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+5.85nA
 \end_layout
 
 \end_inset
