@@ -227,18 +227,6 @@ Circuito que cumple la tabla de verdad
 \end_layout
 
 \begin_layout Standard
-Este circuito es el de menor costo y el problema que puede traer es que
- por los tiempos de propagacion que tienen las compuertas, al cambiar alguna
- entrada, podria generar una oscilacion hasta que las compuertas se establezcan
- como se muestra en la siguiente figura:
-\end_layout
-
-\begin_layout Standard
-Como se puede ver, este glitch puede aparecer cuando no cambia el estado
- de salida como tambien cuando cambia.
-\end_layout
-
-\begin_layout Standard
 Se procedio a realizar el circuito, para realizarlo se utilizaron dos circuitos
  integrados nor (74HC02) y para simular las entradas en alto y bajo se utilizo
  un dip switch, tamien se puse un led en la salida, para ver si esta esta

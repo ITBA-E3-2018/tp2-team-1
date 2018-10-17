@@ -88,7 +88,7 @@ Si en un circuito logico se le cambia la entrada, pueden llegar a oscilar
 placement H
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -132,7 +132,7 @@ Para evitar los Hazards estaticos hay que agrupar grupos extras en el mapa
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -149,7 +149,7 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Mapa de Karnaugh con costo minimo
+Mapa de Karnaugh
 \end_layout
 
 \end_inset
@@ -167,8 +167,9 @@ Mapa de Karnaugh con costo minimo
 \end_layout
 
 \begin_layout Standard
-Para reducir los Hazards, habria que agrupar los dos ceros que no estan
- agrupados.
+Este es el mapa de Karnaugh de costo minimo.
+ Para reducir los Hazards, habria que agrupar los dos ceros que no estan
+ agrupados., lo cual aumentaria el costo.
 \end_layout
 
 \begin_layout Standard
@@ -187,8 +188,9 @@ f(A,B,C)=(A'+B').(B+C)
 \end_layout
 
 \begin_layout Standard
-Se decidio realizarlo con compuertas nors, debido a que con estas se pueden
- formar todas las compuertas y se llego al circuito de la siguiente figura
+Para la implementacios del circuito se decidio realizarlo con compuertas
+ nors, debido a que con estas se pueden formar todas las compuertas y se
+ llego al circuito de la siguiente figura
 \end_layout
 
 \begin_layout Standard
@@ -226,23 +228,11 @@ Circuito que cumple la tabla de verdad
 \end_layout
 
 \begin_layout Standard
-Este circuito es el de menor costo y el problema que puede traer es que
- por los tiempos de propagacion que tienen las compuertas, al cambiar alguna
- entrada, podria generar una oscilacion hasta que las compuertas se establezcan
- como se muestra en la siguiente figura:
-\end_layout
-
-\begin_layout Standard
-Como se puede ver, este glitch puede aparecer cuando no cambia el estado
- de salida como tambien cuando cambia.
-\end_layout
-
-\begin_layout Standard
 Se procedio a realizar el circuito, para realizarlo se utilizaron dos circuitos
  integrados nor (74HC02) y para simular las entradas en alto y bajo se utilizo
  un dip switch, tamien se puse un led en la salida, para ver si esta esta
  en alto o bajo.
- Luego se midieron los glitches anteriormente mencionados.
+ Luego se midieron los Hazards anteriormente mencionados.
  A continuacion se pondran las mediciones realizadas:
 \end_layout
 
@@ -296,7 +286,7 @@ Gliches cuando no cambia el estado de la salida
 placement H
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
