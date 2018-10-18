@@ -89,7 +89,7 @@ r-transistor logic).
 Los RTL se caracterizan por implementar compuertas lógicas unicamente con
  resistencias y transistores BJT, mientras que los TTL utilizan transistores
  tanto para el comportamiento lógico como para amplificar.
- Debido a su configuración los TTL poseen una mayor velocidad de transimsión,
+ Debido a su configuración los TTL poseen una mayor velocidad de transmisión,
  y ambas familias tienen una alta disipación de potencia.
 \end_layout
 
@@ -114,7 +114,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename C:/Tomas/Electro 3/Ej 1/not rtl.png
+	filename not rtl.png
 	width 6.5cm
 	height 6.5cm
 
@@ -148,7 +148,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename C:/Tomas/Electro 3/Ej 1/not ttl.png
+	filename not ttl.png
 	width 7cm
 
 \end_inset
@@ -197,6 +197,27 @@ Compuertas NOT
 
 \begin_layout Subsection
 Resultados
+\end_layout
+
+\begin_layout Standard
+En cuanto a la medición de los parámetros de tensión se utilizó el modo
+ XY del osciloscopio entrando con una rampa de 5V de amplitud a baja frecuencia.
+ Se obtuvo la gráfica de la tensión de salida en función de la entrada.
+ Los margenes de ruido se calculan a partir de la diferencia de las tensiones
+ de entrada y salida.
+ Luego se aplicó una señal cuadrada de 0V a 5V en la entrada y se midieron
+ los tiempos de las compuertas.
+ Finalmente como la carga era un capacitor de 
+\begin_inset Formula $1nF$
+\end_inset
+
+, la corriente esta descripta por 
+\begin_inset Formula $i_{c}=C\,\frac{dV_{c}}{dt}$
+\end_inset
+
+.
+ Se derivó con math la tensión sobre el capacitor, se obtuvo el valor máximo
+ con los cursores y se multiplicó este valor por el del capacitor.
 \end_layout
 
 \begin_layout Standard
@@ -1061,13 +1082,26 @@ Mediciones compuertas
 
 \end_layout
 
-\begin_layout Plain Layout
-
-\end_layout
-
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+A partir de las mediciones se puede apreciar como una carga capacitiva increment
+a tanto 
+\begin_inset Formula $t_{pLH}$
+\end_inset
+
+ como 
+\begin_inset Formula $t_{pHL}$
+\end_inset
+
+, además en los tiempos de propagación se observa la mayor velocidad de
+ transmisión de la familia TTL con respecto a las RTL.
+ Los niveles de tensión y el margen de ruido permanecen similares en ambas
+ configuraciones.
+ 
 \end_layout
 
 \begin_layout Section
@@ -1102,12 +1136,12 @@ La carga del circuito se implementó con compuertas NAND del integrado 74LS00,
 placement H
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename C:/Tomas/Electro 3/tp2-team-1/Ej 4/carga.png
+	filename carga.png
 	scale 25
 
 \end_inset
