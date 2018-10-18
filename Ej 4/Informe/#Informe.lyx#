@@ -405,7 +405,7 @@ Con carga
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $NoiseMarginHigh$
+\begin_inset Formula $NoiseMarginH$
 \end_inset
 
 
@@ -417,7 +417,7 @@ Con carga
 \begin_inset Text
 
 \begin_layout Plain Layout
-4.05V
+4.05
 \end_layout
 
 \end_inset
@@ -426,7 +426,7 @@ Con carga
 \begin_inset Text
 
 \begin_layout Plain Layout
-4.05V
+4.05
 \end_layout
 
 \end_inset
@@ -437,7 +437,7 @@ Con carga
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $NoiseMarginLow$
+\begin_inset Formula $NoiseMarginL$
 \end_inset
 
 
@@ -449,7 +449,7 @@ Con carga
 \begin_inset Text
 
 \begin_layout Plain Layout
-425mV
+
 \end_layout
 
 \end_inset
@@ -458,7 +458,7 @@ Con carga
 \begin_inset Text
 
 \begin_layout Plain Layout
-425mV
+
 \end_layout
 
 \end_inset
@@ -826,7 +826,7 @@ Con carga
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $NoiseMarginHigh$
+\begin_inset Formula $NoiseMarginH$
 \end_inset
 
 
@@ -858,7 +858,7 @@ Con carga
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $NoiseMarginLow$
+\begin_inset Formula $NoiseMarginL$
 \end_inset
 
 
@@ -870,7 +870,7 @@ Con carga
 \begin_inset Text
 
 \begin_layout Plain Layout
-462mV
+
 \end_layout
 
 \end_inset
@@ -879,7 +879,7 @@ Con carga
 \begin_inset Text
 
 \begin_layout Plain Layout
-462mV
+
 \end_layout
 
 \end_inset

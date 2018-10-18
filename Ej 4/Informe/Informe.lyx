@@ -109,12 +109,12 @@ status open
 placement H
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename C:/Tomas/Electro 3/Ej 1/not rtl.png
+	filename not rtl.png
 	width 6.5cm
 	height 6.5cm
 
@@ -148,7 +148,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename C:/Tomas/Electro 3/Ej 1/not ttl.png
+	filename not ttl.png
 	width 7cm
 
 \end_inset
@@ -209,7 +209,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Tabular
-<lyxtabular version="3" rows="12" columns="3">
+<lyxtabular version="3" rows="13" columns="3">
 <features tabularvalignment="middle">
 <column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
@@ -405,7 +405,7 @@ Con carga
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $NoiseMargin$
+\begin_inset Formula $NoiseMarginHigh$
 \end_inset
 
 
@@ -417,7 +417,7 @@ Con carga
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+4.05V
 \end_layout
 
 \end_inset
@@ -426,7 +426,39 @@ Con carga
 \begin_inset Text
 
 \begin_layout Plain Layout
+4.05V
+\end_layout
 
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $NoiseMarginLow$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+425mV
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+425mV
 \end_layout
 
 \end_inset
@@ -586,7 +618,7 @@ Con carga
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+46.25mA
 \end_layout
 
 \end_inset
@@ -598,7 +630,7 @@ Con carga
 
 
 \begin_inset Tabular
-<lyxtabular version="3" rows="12" columns="3">
+<lyxtabular version="3" rows="13" columns="3">
 <features tabularvalignment="middle">
 <column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
@@ -794,7 +826,7 @@ Con carga
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $NoiseMargin$
+\begin_inset Formula $NoiseMarginHigh$
 \end_inset
 
 
@@ -806,7 +838,7 @@ Con carga
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+3.957
 \end_layout
 
 \end_inset
@@ -815,7 +847,39 @@ Con carga
 \begin_inset Text
 
 \begin_layout Plain Layout
+3.957
+\end_layout
 
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $NoiseMarginLow$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+462mV
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+462mV
 \end_layout
 
 \end_inset
@@ -975,7 +1039,7 @@ Con carga
 \begin_inset Text
 
 \begin_layout Plain Layout
-5.85nA
+57.5mA
 \end_layout
 
 \end_inset
@@ -1038,12 +1102,12 @@ La carga del circuito se implementó con compuertas NAND del integrado 74LS00,
 placement H
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename C:/Tomas/Electro 3/tp2-team-1/Ej 4/carga.png
+	filename carga.png
 	scale 25
 
 \end_inset
