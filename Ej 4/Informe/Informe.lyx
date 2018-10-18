@@ -458,7 +458,7 @@ Con carga
 \begin_inset Text
 
 \begin_layout Plain Layout
-3.73us
+3.76us
 \end_layout
 
 \end_inset
@@ -870,7 +870,7 @@ Con carga
 \begin_inset Text
 
 \begin_layout Plain Layout
-45.2ns
+1.7ns
 \end_layout
 
 \end_inset
@@ -879,7 +879,7 @@ Con carga
 \begin_inset Text
 
 \begin_layout Plain Layout
-1.7ns
+45.2ns
 \end_layout
 
 \end_inset
