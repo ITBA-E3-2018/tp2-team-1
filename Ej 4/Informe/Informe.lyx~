@@ -86,7 +86,7 @@ r-transistor logic).
 \end_layout
 
 \begin_layout Standard
-Los RTL se caracterizan por implementar compuertas lógicas unicamente con
+Los RTL se caracterizan por implementar compuertas lógicas únicamente con
  resistencias y transistores BJT, mientras que los TTL utilizan transistores
  tanto para el comportamiento lógico como para amplificar.
  Debido a su configuración los TTL poseen una mayor velocidad de transmisión,
@@ -102,7 +102,7 @@ Se utilizaron los transistores BC547 para los siguientes circuitos.
 placement H
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \begin_inset Float figure
@@ -203,11 +203,11 @@ Resultados
 En cuanto a la medición de los parámetros de tensión se utilizó el modo
  XY del osciloscopio entrando con una rampa de 5V de amplitud a baja frecuencia.
  Se obtuvo la gráfica de la tensión de salida en función de la entrada.
- Los margenes de ruido se calculan a partir de la diferencia de las tensiones
+ Los márgenes de ruido se calculan a partir de la diferencia de las tensiones
  de entrada y salida.
  Luego se aplicó una señal cuadrada de 0V a 5V en la entrada y se midieron
  los tiempos de las compuertas.
- Finalmente como la carga era un capacitor de 
+ Finalmente, como la carga era un capacitor de 
 \begin_inset Formula $1nF$
 \end_inset
 
@@ -1118,8 +1118,8 @@ El objetivo de esta sección consiste en medir los tiempos de propagación,
  de alta velocidad).
  Se realizó la experiencia primero con la compuerta en vacío y luego con
  carga.
- Además se analizaron los cambios en la tensión de alimentación y la temperatura
- del integrado para altas frecuencias.
+ Además, se analizaron los cambios en la tensión de alimentación y la temperatur
+a del integrado para altas frecuencias.
 \end_layout
 
 \begin_layout Subsection
@@ -1467,7 +1467,7 @@ Al elevar la frecuencia a
 \begin_inset Formula $V_{cc}$
 \end_inset
 
- la tensión de alminetación, 
+ la tensión de alimentación, 
 \begin_inset Formula $f$
 \end_inset
 
@@ -1484,7 +1484,7 @@ La tensión de alimentación era de 5V constantes excepto cuando habían cambios
 \begin_inset Formula $V_{in}$
 \end_inset
 
- que se obserbava un sobrepico.
+ que se observaba un sobrepico.
  Esto se debe a que los componentes parásitos forman un RLC que pide corriente
  a la fuente afectando el transitorio de corriente y de tensión, por lo
  tanto los sobrepicos observados se corresponden al transitorio.
@@ -1493,7 +1493,7 @@ La tensión de alimentación era de 5V constantes excepto cuando habían cambios
  el capacitor de desacople al resto del circuito.
  Se utilizó un capacitor de 100nF porque la carga que almacena es suficiente
  para proporcionarle al circuito, para circuitos de mayor complejidad se
- utilizan capacitores mas grandes.
+ utilizan capacitores más grandes.
  
 \end_layout
 
